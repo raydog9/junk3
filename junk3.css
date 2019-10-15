@@ -1,0 +1,45 @@
+ body {
+     background-color: rgb(157, 147, 247);
+     color:white;
+ }
+ .container {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+
+ }
+ .container > div {
+     border: 1px solid rgb(53, 29, 29);
+     width: 100px;
+     height: 100px;
+     font-size:40px;
+     text-align:center;
+   }
+ #po1 {
+    border: 1px solid rgb(30, 65, 63);
+    width:100px;
+    height:100px;
+    margin-left:100px;
+    font-size:30px;
+    text-align:center;
+ 
+}
+
+#po2 {
+    border:1px solid rgb(30, 65, 63);
+     width:100px;
+    height:100px;
+    margin-left:410px;
+    margin-top:-130px;
+    text-align:center;
+    font-size:30px; 
+    
+}
+  .container2 {
+     display:grid;
+     grid-template-columns: 150px 1fr 150px;
+     grid-gap: 10px;
+   }
+  .container > button {
+    color: white;   
+  }
