@@ -3,7 +3,7 @@
  
  function funk() {
     for(i=0;i<11;i++);{
-
+ var rand=Math.floor(Math.random()*100);
 document.getElementById("bo1").innerHTML=i;
 }
  }
