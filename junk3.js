@@ -1,26 +1,20 @@
- var i;var t="";var r;var u;var ii;var rr;var rand;
- 
- 
- function funk() {
-    for(i=0;i<11;i++);{
- var rand=Math.floor(Math.random()*100);
-document.getElementById("bo1").innerHTML=i;
-}
- }
- 
- function funk1() {
-document.getElementById("bo2").innerHTML=i;
-}
-t++
-function funk2() {
- 
-document.body.style.backgroundColor="rgb(230,205,t)";
+var a,b,c,d,e,f,i,n,o,r,s,t,aray=[],may=[],ray=[],say=[];
 
-for (i=0;i<10;i++ ) {
-document.getElementById("bo4").innerHTML=t;
+bu1.addEventListener("click",fun1);
+bu2.addEventListener("click",fun2);
+bu3.addEventListener("click",fun3);
+
+function fun1() {
+        console.log("ray was not here");
+        document.getElementById("bo1").innerHTML="RAY IS HERE";
+}
+function fun2() {
+   document.getElementById("bo1").innerHTML="ray was here";
+   console.log("ray was here");
+
+   
+}
+function fun3() {
+   document.getElementById("bo1").innerHTML="ray was going to come here";
 
 }
-
-
-}
- 
