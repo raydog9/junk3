@@ -22,14 +22,14 @@
       ray.push(rand);
    }
    }
-      document.getElementById("bo1").innerHTML=aray;
+      bo1.innerHTML=aray;
 }
    function fun2() {
-      document.getElementById("bo4").innerHTML=may;
+      bo4.innerHTML=may;
 
    }
    function fun3() {
-      document.getElementById("bo5").innerHTML=ray
+      bo5.innerHTML=ray;
    }
    function fun4() {
       bo1.innerHTML="";
