@@ -1,9 +1,14 @@
  var a,b,c,d,e,f,i,n,r,s,t,aray=[],may=[],ray=[],say=[];
-
+ b01=document.getElementById("bo1");
+ bo2=document.getElementById("bo2");
+ bo3=document.getElementById("bo3");
+ bo4=document.getElementById("bo4");
  
  bu1.addEventListener("click",fun1);
  bu2.addEventListener("click",fun2);
  bu3.addEventListener("click",fun3);
+ bu4.addEventListener("click",fun4);
+
 
 
  function fun1() {
@@ -25,4 +30,10 @@
    }
    function fun3() {
       document.getElementById("bo5").innerHTML=ray
+   }
+   function fun4() {
+      bo1.innerHTML="";
+      bo2.innerHTML="";
+      bo4.innerHTML="";
+      bo5.innerHTML="";
    }
