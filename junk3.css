@@ -1,29 +1,64 @@
- body {
-     background-color: rgb(157, 147, 247);
-     color:white;
- }
+  body {
+    background-color: rgb(207, 199, 221);
+       transition-property: background-color;
+      transition-duration: 3s;
+    }
+  
+
+
+
  .container {
+     background-color: rgb(172, 192, 164);
      display: grid;
      grid-template-columns: 1fr 1fr 1fr 1fr;
-    
+     justify-items: center;
+     transition-property: background-color;
+     transition-duration:3s;
 
- }
- .container > div {
-     border: 1px solid rgb(53, 29, 29);
-     width: 100px;
-     height: 100px;
-     font-size:20px;
-     text-align:center;
-   }
-  
-  .container2 {
-     display:grid;
-     grid-template-columns: 150px 1fr 150px;
-     grid-gap: 10px;
-   }
-  .container > button {
-    color: white;   
+
   }
-  input {
-    height: 40px;
+  .container > div {
+    border:1px solid green;
+    text-align:center;
+    width:100px;
+    height:100px;
+    transition-property: background-color;
+    transition-duration: 3s;
+ 
   }
+.container:hover {
+  transition-property:background-color;
+  transition-duration: 3s;
+  background-color:black;
+}
+body:hover {
+  background-color: rgb(15, 39, 53);
+  transition-property: background-color;
+  transition-duration: 3s;
+
+}
+
+#bo1:hover {
+  background-color:orangered;
+}
+#bo2:hover {
+  background-color:hotpink;
+}
+#bo3:hover {
+  background-color:blueviolet;
+}
+#bo4:hover {
+  background-color:rebeccapurple;
+}
+#bo5:hover {
+  background-color:yellowgreen;
+}
+#bo6:hover {
+  background-color:greenyellow;
+}
+#bo7:hover {
+  background-color:blueviolet;
+}
+#bo8:hover {
+  background-color:orchid;
+}
