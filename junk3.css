@@ -1,13 +1,13 @@
   body {
-    background-color: rgb(157, 238, 238);
+    background-color: rgb(0, 0, 0);
        transition-property: background-color;
       transition-duration: 3s;
     }
   .container {
-     background-color: rgb(157,238,238);
+     background-color: rgb(0,0,0);
      display: grid;
      grid-template-columns: 1fr 1fr 1fr 1fr;
-     color:white;
+     color:black;
      justify-items: center;
      transition-property: background-color;
      transition-duration:3s;
@@ -17,13 +17,15 @@
   .container > div {
     text-align:center;
     width:250px;
-    height:200px;
-    font-size: 30px;
+    height:250px;
+    font-size: 50px;
+    border-radius: 10px;
+
     transition-property:background-color;
     transition-duration: 3s;
   
   }
-.container:hover {
+ .container:hover {
   transition-property:background-color;
   transition-duration: 3s;
   background-color:black;
@@ -34,15 +36,15 @@ body:hover {
   transition-duration: 3s;
 
 }
-
-#bo1:hover {
-  background-color:rgb(166, 213, 224);
-}
+ #bo1:hover {
+  background-color:rgb(93, 255, 242);
+  
+ }
 #bo2:hover {
   background-color:rgb(25, 40, 177);
 }
 #bo3:hover {
-  background-color:rgb(54, 17, 88);
+  background-color:rgb(141, 20, 255);
 }
 #bo4:hover {
   background-color:rgb(91, 156, 255);
@@ -54,7 +56,7 @@ body:hover {
   background-color:rgb(217, 142, 252);
 }
 #bo7:hover {
-  background-color:blueviolet;
+  background-color:rgb(252, 17, 181);
 }
 #bo8:hover {
   background-color:orchid;
