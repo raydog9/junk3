@@ -17,3 +17,19 @@ bo4.onclick=function() {
    var rand=Math.floor(Math.random() *100);
    bo4.innerHTML=rand;
 }
+bo5.onclick=function() {
+   var rand=Math.floor(Math.random() *100);
+ bo5.innerHTML=rand;
+}
+bo6.onclick=function() {
+var rand=Math.floor(Math.random() *100);
+bo6.innerHTML=rand;
+}
+bo7.onclick=function() {
+var rand=Math.floor(Math.random() *100);
+bo7.innerHTML=rand;
+}
+bo8.onclick=function() {
+var rand=Math.floor(Math.random() *100);
+bo8.innerHTML=rand;
+}
