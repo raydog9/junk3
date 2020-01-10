@@ -1,63 +1,35 @@
-  body {
-    background-color: rgb(0, 0, 0);
-       transition-property: background-color;
-      transition-duration: 3s;
-    }
-  .container {
-     background-color: rgb(0,0,0);
-     display: grid;
-     grid-template-columns: 1fr 1fr 1fr 1fr;
-     color:black;
-     justify-items: center;
-     transition-property: background-color;
-     transition-duration:3s;
-
-
-  }
-  .container > div {
-    text-align:center;
-    width:250px;
-    height:250px;
-    font-size: 50px;
-    border-radius: 10px;
-
-    transition-property:background-color;
-    transition-duration: 3s;
-  
-  }
- .container:hover {
-  transition-property:background-color;
-  transition-duration: 3s;
-  background-color:black;
-}
-body:hover {
-  background-color: rgb(15, 39, 53);
-  transition-property: background-color;
-  transition-duration: 3s;
-
-}
- #bo1:hover {
-  background-color:rgb(93, 255, 242);
-  
+ body {
+   background-color:lightblue;
  }
-#bo2:hover {
-  background-color:rgb(25, 40, 177);
-}
-#bo3:hover {
-  background-color:rgb(141, 20, 255);
-}
-#bo4:hover {
-  background-color:rgb(91, 156, 255);
-}
-#bo5:hover {
-  background-color:rgb(91, 156, 255);
-}
-#bo6:hover {
-  background-color:rgb(217, 142, 252);
-}
-#bo7:hover {
-  background-color:rgb(252, 17, 181);
-}
-#bo8:hover {
-  background-color:orchid;
-}
+
+ .container {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-gap:none;
+ }
+ .container > div {
+   background: rgb(175, 175, 235);
+   width:100px;
+   height:50px;
+   text-align: center;
+   font-size:40px;
+   
+ }
+ button {
+   background-color:black;
+   width:100px;
+   height:50px;
+   margin-top:100px;
+   color:white;
+ }
+ #bo5 {
+   margin-top: 150px;
+    width: 100px;
+    height:100px;
+ }
+ 
+ #bo7{
+     margin-top:200px;
+   width:200px;
+   height:50px;
+ }
