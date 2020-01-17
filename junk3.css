@@ -1,35 +1,24 @@
  body {
-   background-color:lightblue;
+   background-color: lightblue;
  }
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+}
+#bo1 {
+  background-color:rgb(0, 255, 42);
+  width:500px;
+  height: 238px;
+  font-size: 40px;
+  word-wrap:break-word;
+  padding:10px;
 
- .container {
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
-   grid-gap:none;
- }
- .container > div {
-   background: rgb(175, 175, 235);
-   width:100px;
-   height:50px;
-   text-align: center;
-   font-size:40px;
-   
- }
- button {
-   background-color:black;
-   width:100px;
-   height:50px;
-   margin-top:100px;
-   color:white;
- }
- #bo5 {
-   margin-top: 150px;
-    width: 100px;
-    height:100px;
- }
- 
- #bo7{
-     margin-top:200px;
-   width:200px;
-   height:50px;
- }
+}
+#bo2 {
+  background:rgb(82, 82, 145);
+  width:500px;
+  height:238px;
+  font-size: 40px;
+  word-wrap: break-word;
+  padding:10px;
+}
