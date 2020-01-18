@@ -1,24 +1,101 @@
- body {
+ body{
    background-color: lightblue;
+   margin: 0px;
  }
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1fr ;
+ .container {
+   background-color: yellow;
+   height:400px;
+   position: relative;
+   font-size: 40px;
+ 
+ }
+ #bo1 {
+   background-color: rgb(255, 251, 13);
+   display: inline-block;
+   width: 100px; 
+   height: 100px;
+   border: solid;
+   border-width: 2px;
+   position: relative;
+   left: 100px;
+ }
+ #bo2 {
+   background-color: rgb(255, 0, 221);
+   display: inline-block;
+   width: 100px; 
+   height: 100px;
+   border: solid;
+   border-width: 2px;
+   position: relative;
+   left: 100px;
+   }
+ #bo3 {
+   background-color: blue;
+    width: 100px;
+   height: 100px;
+   border: solid;
+   border-width: 2px;
+   position:relative;
+    display:inline-block;
+    left:100px;
+ 
+ }
+ #bo4 { 
+   background-color: rgb(44, 187, 25);
+   display: inline-block;
+   width: 100px;
+   height: 100px; 
+   border: solid;
+   border-width: 2px;
+   position: relative;
+   left: 100px;
+ }
+#bo5 { 
+  background-color: lightskyblue;
+  width: 100px;
+  height: 100px;
+  border: solid;
+  border-width: 2px;
+  position:relative;
+  left: 100px;
+  font-size: 20px;
+  word-wrap: break-word;
 }
-#bo1 {
-  background-color:rgb(0, 255, 42);
-  width:500px;
-  height: 238px;
-  font-size: 40px;
-  word-wrap:break-word;
-  padding:10px;
+#bo6 {
+  background-color: lightskyblue;
+  width: 100px;
+  height: 100px;
+  border: solid;
+  border-width: 2px;
+  position:relative;
+  left: 214px;
+  top: -104px;
+  font-size:20px;
+  word-wrap: break-word;
+
 
 }
-#bo2 {
-  background:rgb(82, 82, 145);
-  width:500px;
-  height:238px;
-  font-size: 40px;
+#bo7 {
+  background-color: lightskyblue;
+  width: 100px;
+  height: 100px;
+  border: solid;
+  border-width: 2px;
+  position:relative;
+  left: 328px;
+  top: -208px;
+  font-size:20px;
   word-wrap: break-word;
-  padding:10px;
 }
+  #bo8 {
+    background-color: lightskyblue;
+    width: 100px;
+    height: 100px;
+    border: solid;
+    border-width: 2px;
+    position:relative;
+    left: 442px;
+    top: -312px;
+    font-size:20px;
+    word-wrap: break-word;
+  }
